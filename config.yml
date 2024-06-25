@@ -1,34 +1,34 @@
 metrics:
       tele/tasmota_70DFA6/SENSOR:
-        value_path: ["ANALOG", "A0"]
+        value_path: ["ANALOG", "Range"]
         metric_name: "moisture_level_percentage"
         labels:
           location: "Living Room"
           object: "Parlour Palm"
-        remap:
-          in_min: 650
-          in_max: 267
-          out_min: 0
-          out_max: 100
+#        remap:
+#          in_min: 650
+#          in_max: 267
+#          out_min: 0
+#          out_max: 100
       tele/tasmota_30C08E/SENSOR:
-        value_path: [ "ANALOG", "A0" ]
+        value_path: [ "ANALOG", "Range" ]
         metric_name: "moisture_level_percentage"
         labels:
           location: "Office"
           object: "Weeping Fig"
-        remap:
-          in_min: 643
-          in_max: 264
-          out_min: 0
-          out_max: 100
+#        remap:
+#          in_min: 643
+#          in_max: 264
+#          out_min: 0
+#          out_max: 100
       tele/tasmota_70988B/SENSOR:
-        value_path: [ "ANALOG", "A0" ]
+        value_path: [ "ANALOG", "Range" ]
         metric_name: "moisture_level_percentage"
         labels:
           location: "Office"
           object: "Peace Lily"
-        remap:
-          in_min: 639
-          in_max: 264
-          out_min: 0
-          out_max: 100
+#        remap:
+#          in_min: 639
+#          in_max: 264
+#          out_min: 0
+#          out_max: 100
